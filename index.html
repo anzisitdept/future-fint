@@ -1,0 +1,1718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future Fint — Be Financially Free | Premium Trading Community</title>
+  <meta name="description"
+    content="Join Future Fint, a serious trading community built around experience, real-time market insight, and active traders. No courses. Connect on Telegram.">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Future Fint — Be Financially Free">
+  <meta property="og:description"
+    content="A serious trading community built around experienced market participants. No courses. Connect on Telegram.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://futurefint.com">
+  <meta property="og:image" content="images/hero-phone.jpg">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Future Fint — Be Financially Free">
+  <meta name="twitter:description" content="A serious trading community built around experienced market participants.">
+
+  <!-- Fonts: Plus Jakarta Sans, Inter, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- GSAP & ScrollTrigger -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Future Fint",
+    "description": "A serious trading community built around experience, insight, and real-time connection.",
+    "url": "https://futurefint.com"
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- Top Scroll Progress Indicator -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Ambient Seamless Background Mesh Glows -->
+  <div class="ambient-glow ambient-glow--top" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow--middle" aria-hidden="true"></div>
+  <div class="ambient-glow ambient-glow--bottom" aria-hidden="true"></div>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="container">
+      <div class="navbar__inner">
+        <!-- Provided Logo with Transparent Background, Noticeably Larger -->
+        <a href="#home" class="navbar__logo" aria-label="Future Fint Home">
+          <img src="images/logo.png" alt="Future Fint Logo" class="navbar__logo-img">
+        </a>
+
+        <nav class="navbar__links" id="navLinks" role="navigation" aria-label="Main Navigation">
+          <a href="#home" class="nav-item active"><span>Home</span></a>
+          <a href="#difference" class="nav-item"><span>The Difference</span></a>
+          <a href="#no-courses" class="nav-item"><span>Our Approach</span></a>
+          <a href="#community" class="nav-item"><span>Community</span></a>
+          <a href="#trading-environment" class="nav-item"><span>Environment</span></a>
+          <a href="#experience" class="nav-item"><span>Experience</span></a>
+          <a href="#reviews" class="nav-item"><span>Reviews</span></a>
+          <a href="#faq" class="nav-item"><span>FAQ</span></a>
+        </nav>
+
+        <div class="navbar__actions">
+          <a href="https://t.me/" target="_blank" rel="noopener noreferrer"
+            class="btn btn--primary btn--nav magnetic-btn" data-track="telegram-cta"
+            aria-label="Join Telegram Community">
+            <span class="btn-text">
+              <svg class="telegram-icon" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.28-.02-.12.03-2.02 1.28-5.69 3.77-.54.37-1.03.55-1.47.54-.48-.01-1.4-.27-2.09-.49-.84-.28-1.51-.42-1.45-.89.03-.25.38-.5 1.04-.76 4.09-1.78 6.82-2.96 8.19-3.52 3.9-1.62 4.71-1.9 5.24-1.91.12 0 .37.03.54.17.14.12.18.28.2.46-.01.06.01.24 0 .36z" />
+              </svg>
+              Join Telegram
+            </span>
+            <svg class="btn-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+
+          <button class="navbar__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ==================== HERO (PREMIUM FINTECH REDESIGN) ==================== -->
+    <section class="hero section" id="home">
+      <!-- Clean, Sophisticated Animated Fintech Background -->
+      <div class="hero__animated-bg" aria-hidden="true">
+        <div class="hero-aurora hero-aurora--1"></div>
+        <div class="hero-aurora hero-aurora--2"></div>
+        <div class="hero-soft-radial"></div>
+        <div class="hero-pedestal-ground-glow"></div>
+      </div>
+
+      <div class="container">
+        <div class="hero__grid">
+          <!-- Text Content Column with Strong Hierarchy -->
+          <div class="hero__content">
+            <div class="hero__pill-wrapper">
+              <div class="hero__pill-tag">
+                <span class="pill-dot"></span>
+                <span>TRADING &nbsp;•&nbsp; COMMUNITY &nbsp;•&nbsp; EXPERIENCE</span>
+              </div>
+            </div>
+
+            <h1 class="hero__headline">
+              <span class="mask-line">
+                <span class="mask-inner hero-text-1">Be Financially</span>
+              </span>
+              <span class="mask-line">
+                <span class="mask-inner hero-text-2 purple-gradient-text">Free.</span>
+              </span>
+            </h1>
+
+            <p class="hero__body">
+              Join a trading community built around experience, market insight and people who take trading seriously. No
+              courses. No unnecessary hype.
+            </p>
+
+            <div class="hero__ctas">
+              <a href="https://t.me/" target="_blank" rel="noopener noreferrer"
+                class="btn btn--primary btn--hero-main magnetic-btn" data-track="telegram-cta">
+                <span class="btn-text">
+                  <svg class="telegram-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.28-.02-.12.03-2.02 1.28-5.69 3.77-.54.37-1.03.55-1.47.54-.48-.01-1.4-.27-2.09-.49-.84-.28-1.51-.42-1.45-.89.03-.25.38-.5 1.04-.76 4.09-1.78 6.82-2.96 8.19-3.52 3.9-1.62 4.71-1.9 5.24-1.91.12 0 .37.03.54.17.14.12.18.28.2.46-.01.06.01.24 0 .36z" />
+                  </svg>
+                  Join Telegram
+                </span>
+                <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </a>
+
+              <a href="#community" class="btn btn--secondary magnetic-btn">
+                <span>Meet Our Community</span>
+              </a>
+            </div>
+
+            <!-- Social Proof Strip with Real Member Avatars -->
+            <div class="hero__social-proof">
+              <div class="hero__avatar-stack">
+                <img src="images/team-1.jpg" alt="Member Liam" class="proof-avatar">
+                <img src="images/team-2.jpg" alt="Member Sophie" class="proof-avatar">
+                <img src="images/team-3.jpg" alt="Member Marcus" class="proof-avatar">
+                <img src="images/team-4.jpg" alt="Member Daniel" class="proof-avatar">
+              </div>
+              <div class="hero__proof-text">
+                <div class="proof-stars">★★★★★</div>
+                <span class="proof-label">Trusted by disciplined traders &bull; 100% Free Telegram</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Visual Column with 3D Depth & Pedestal -->
+          <div class="hero__visual" id="heroVisual">
+            <!-- Subtle Faint Candlestick Arc Atmosphere -->
+            <div class="hero__candlestick-arc" aria-hidden="true">
+              <svg viewBox="0 0 500 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="arcGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#7C42FF" stop-opacity="0.04" />
+                    <stop offset="60%" stop-color="#7C42FF" stop-opacity="0.16" />
+                    <stop offset="100%" stop-color="#9333EA" stop-opacity="0.25" />
+                  </linearGradient>
+                </defs>
+                <!-- Arc of faint trading candlesticks ascending smoothly -->
+                <g stroke="url(#arcGrad)" stroke-width="1.5">
+                  <line x1="60" y1="290" x2="60" y2="350" />
+                  <rect x="54" y="305" width="12" height="30" rx="3" fill="url(#arcGrad)" />
+                  <line x1="100" y1="260" x2="100" y2="330" />
+                  <rect x="94" y="275" width="12" height="36" rx="3" fill="url(#arcGrad)" />
+                  <line x1="140" y1="235" x2="140" y2="310" />
+                  <rect x="134" y="250" width="12" height="42" rx="3" fill="url(#arcGrad)" />
+                  <line x1="180" y1="205" x2="180" y2="285" />
+                  <rect x="174" y="220" width="12" height="46" rx="3" fill="url(#arcGrad)" />
+                  <line x1="220" y1="175" x2="220" y2="260" />
+                  <rect x="214" y="190" width="12" height="50" rx="3" fill="url(#arcGrad)" />
+                  <line x1="260" y1="145" x2="260" y2="235" />
+                  <rect x="254" y="160" width="12" height="52" rx="3" fill="url(#arcGrad)" />
+                  <line x1="300" y1="120" x2="300" y2="210" />
+                  <rect x="294" y="135" width="12" height="54" rx="3" fill="url(#arcGrad)" />
+                </g>
+              </svg>
+            </div>
+
+            <!-- Purple Ambient Luminous Glow -->
+            <div class="hero__luminous-glow"></div>
+
+            <!-- 3D Pedestal Platform -->
+            <div class="hero-pedestal-platform" id="heroPedestal">
+              <div class="pedestal-disc pedestal-disc--top"></div>
+              <div class="pedestal-disc pedestal-disc--base"></div>
+              <div class="pedestal-shadow"></div>
+            </div>
+
+            <!-- Device Mockup with Realistic In-App Trading UI -->
+            <div class="hero__phone-wrapper" id="heroPhoneWrapper">
+              <div class="hero__phone-frame" id="heroPhoneFrame">
+                <!-- Phone Dynamic Notch / Speaker -->
+                <div class="phone-island">
+                  <div class="island-camera"></div>
+                  <div class="island-sensor"></div>
+                </div>
+
+                <!-- Glass Sheen Overlay -->
+                <div class="phone-glass-reflection"></div>
+
+                <!-- Screen Inner Content: Dark Trading Dashboard -->
+                <div class="phone-screen-content">
+                  <!-- Status Bar -->
+                  <div class="phone-status-bar">
+                    <span class="status-time">9:41</span>
+                    <div class="status-icons">
+                      <svg width="14" height="10" viewBox="0 0 17 11" fill="currentColor">
+                        <path d="M1 9.5h2.5V11H1zM5 7h2.5v4H5zM9 4.5h2.5v6.5H9zM13 1h2.5v10H13z" />
+                      </svg>
+                      <svg width="13" height="10" viewBox="0 0 16 12" fill="currentColor">
+                        <path
+                          d="M8 9.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm-3.5-3a5.5 5.5 0 0 1 7 0 .8.8 0 0 0 1.1-1.1 7.1 7.1 0 0 0-9.2 0 .8.8 0 0 0 1.1 1.1zm-3-3a10.5 10.5 0 0 1 13 0 .8.8 0 0 0 1.1-1.1 12.1 12.1 0 0 0-15.2 0 .8.8 0 0 0 1.1 1.1z" />
+                      </svg>
+                      <svg width="18" height="10" viewBox="0 0 24 12" fill="currentColor">
+                        <rect x="1" y="1" width="19" height="10" rx="3" stroke="currentColor" stroke-width="1.2"
+                          fill="none" />
+                        <rect x="2.5" y="2.5" width="14" height="7" rx="1.5" />
+                        <path d="M22 4.5v3c.6 0 1-.4 1-1v-1c0-.6-.4-1-1-1z" />
+                      </svg>
+                    </div>
+                  </div>
+
+                  <!-- Pair Header -->
+                  <div class="phone-pair-header">
+                    <div class="pair-name-wrap">
+                      <span class="pair-crypto-coin pair-crypto-coin--btc">₿</span>
+                      <span class="pair-symbol">BTC/USDT</span>
+                      <svg class="pair-chevron" width="11" height="7" viewBox="0 0 12 8" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                        <path d="M1 1.5l5 5 5-5" />
+                      </svg>
+                    </div>
+                    <div class="pair-actions">
+                      <button class="pair-action-btn" aria-label="Chart settings">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                          stroke-width="2">
+                          <path d="M3 3v18h18" />
+                          <path d="M18 17V9" />
+                          <path d="M13 17V5" />
+                          <path d="M8 17v-3" />
+                        </svg>
+                      </button>
+                      <button class="pair-action-btn" aria-label="Fullscreen">
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                          stroke-width="2">
+                          <path
+                            d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3" />
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- Price and Percentage -->
+                  <div class="phone-price-row">
+                    <div class="phone-main-price">67,432.18</div>
+                    <div class="phone-pct-badge">
+                      <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                        stroke-linecap="round">
+                        <path d="M7 17L17 7M17 7H7M17 7V17" />
+                      </svg>
+                      +2.34%
+                    </div>
+                  </div>
+
+                  <!-- Timeframe Tabs -->
+                  <div class="phone-timeframes">
+                    <span class="tf-btn active">1D</span>
+                    <span class="tf-btn">1W</span>
+                    <span class="tf-btn">1M</span>
+                    <span class="tf-btn">3M</span>
+                    <span class="tf-btn">1Y</span>
+                  </div>
+
+                  <!-- Realistic Candlestick & Moving Average Chart -->
+                  <div class="phone-chart-wrap">
+                    <svg class="phone-trading-svg" viewBox="0 0 260 95" preserveAspectRatio="none">
+                      <defs>
+                        <linearGradient id="chartAreaGrad" x1="0" y1="0" x2="0" y2="1">
+                          <stop offset="0%" stop-color="#10B981" stop-opacity="0.25" />
+                          <stop offset="100%" stop-color="#10B981" stop-opacity="0.0" />
+                        </linearGradient>
+                      </defs>
+                      <!-- Horizontal Gridlines -->
+                      <line x1="0" y1="20" x2="260" y2="20" stroke="rgba(255,255,255,0.06)" stroke-dasharray="3,3" />
+                      <line x1="0" y1="50" x2="260" y2="50" stroke="rgba(255,255,255,0.06)" stroke-dasharray="3,3" />
+                      <line x1="0" y1="80" x2="260" y2="80" stroke="rgba(255,255,255,0.06)" stroke-dasharray="3,3" />
+
+                      <!-- Candlesticks (Realistic sequence leading up) -->
+                      <line x1="12" y1="58" x2="12" y2="76" stroke="#10B981" stroke-width="1.2" />
+                      <rect x="9.5" y="62" width="5" height="10" rx="1" fill="#10B981" />
+
+                      <line x1="28" y1="56" x2="28" y2="72" stroke="#F43F5E" stroke-width="1.2" />
+                      <rect x="25.5" y="60" width="5" height="9" rx="1" fill="#F43F5E" />
+
+                      <line x1="44" y1="50" x2="44" y2="68" stroke="#10B981" stroke-width="1.2" />
+                      <rect x="41.5" y="53" width="5" height="11" rx="1" fill="#10B981" />
+
+                      <line x1="60" y1="46" x2="60" y2="64" stroke="#10B981" stroke-width="1.2" />
+                      <rect x="57.5" y="48" width="5" height="12" rx="1" fill="#10B981" />
+
+                      <line x1="76" y1="48" x2="76" y2="66" stroke="#F43F5E" stroke-width="1.2" />
+                      <rect x="73.5" y="52" width="5" height="9" rx="1" fill="#F43F5E" />
+
+                      <line x1="92" y1="42" x2="92" y2="60" stroke="#10B981" stroke-width="1.2" />
+                      <rect x="89.5" y="45" width="5" height="11" rx="1" fill="#10B981" />
+
+                      <line x1="108" y1="40" x2="108" y2="58" stroke="#F43F5E" stroke-width="1.2" />
+                      <rect x="105.5" y="44" width="5" height="8" rx="1" fill="#F43F5E" />
+
+                      <line x1="124" y1="32" x2="124" y2="54" stroke="#10B981" stroke-width="1.2" />
+                      <rect x="121.5" y="36" width="5" height="14" rx="1" fill="#10B981" />
+
+                      <line x1="140" y1="28" x2="140" y2="48" stroke="#10B981" stroke-width="1.2" />
+                      <rect x="137.5" y="31" width="5" height="13" rx="1" fill="#10B981" />
+
+                      <line x1="156" y1="30" x2="156" y2="46" stroke="#F43F5E" stroke-width="1.2" />
+                      <rect x="153.5" y="34" width="5" height="7" rx="1" fill="#F43F5E" />
+
+                      <line x1="172" y1="22" x2="172" y2="42" stroke="#10B981" stroke-width="1.2" />
+                      <rect x="169.5" y="25" width="5" height="14" rx="1" fill="#10B981" />
+
+                      <line x1="188" y1="18" x2="188" y2="38" stroke="#10B981" stroke-width="1.2" />
+                      <rect x="185.5" y="20" width="5" height="14" rx="1" fill="#10B981" />
+
+                      <line x1="204" y1="20" x2="204" y2="34" stroke="#F43F5E" stroke-width="1.2" />
+                      <rect x="201.5" y="23" width="5" height="7" rx="1" fill="#F43F5E" />
+
+                      <line x1="220" y1="12" x2="220" y2="30" stroke="#10B981" stroke-width="1.2" />
+                      <rect x="217.5" y="14" width="5" height="13" rx="1" fill="#10B981" />
+
+                      <line x1="236" y1="8" x2="236" y2="26" stroke="#10B981" stroke-width="1.2" />
+                      <rect x="233.5" y="10" width="5" height="12" rx="1" fill="#10B981" />
+
+                      <line x1="250" y1="6" x2="250" y2="22" stroke="#10B981" stroke-width="1.5" />
+                      <rect x="247.5" y="7" width="5" height="10" rx="1" fill="#10B981" />
+
+                      <!-- Glowing Area Gradient & Curve Line -->
+                      <path d="M 0,78 Q 40,68 80,56 T 160,34 T 220,18 L 252,9 L 252,95 L 0,95 Z"
+                        fill="url(#chartAreaGrad)" />
+                      <path d="M 0,78 Q 40,68 80,56 T 160,34 T 220,18 L 252,9" fill="none" stroke="#10B981"
+                        stroke-width="2" stroke-linecap="round" />
+                      <circle cx="252" cy="9" r="3" fill="#FFFFFF" stroke="#10B981" stroke-width="2" />
+                    </svg>
+                  </div>
+
+                  <!-- Positions / Orders Tabs -->
+                  <div class="phone-subtabs">
+                    <span class="subtab active">Positions</span>
+                    <span class="subtab">Orders</span>
+                  </div>
+
+                  <!-- Positions List -->
+                  <div class="phone-positions-list">
+                    <!-- Position 1: BTC -->
+                    <div class="position-item">
+                      <div class="pos-left">
+                        <span class="pos-coin pos-coin--btc">₿</span>
+                        <div class="pos-meta">
+                          <strong class="pos-symbol">BTC/USDT</strong>
+                          <span class="pos-leverage">Long · 20x</span>
+                        </div>
+                      </div>
+                      <div class="pos-right">
+                        <span class="pos-pnl-usd">+342.56</span>
+                        <span class="pos-pnl-pct">+12.34%</span>
+                      </div>
+                    </div>
+
+                    <!-- Position 2: ETH -->
+                    <div class="position-item">
+                      <div class="pos-left">
+                        <span class="pos-coin pos-coin--eth">⟠</span>
+                        <div class="pos-meta">
+                          <strong class="pos-symbol">ETH/USDT</strong>
+                          <span class="pos-leverage">Long · 10x</span>
+                        </div>
+                      </div>
+                      <div class="pos-right">
+                        <span class="pos-pnl-usd">+128.90</span>
+                        <span class="pos-pnl-pct">+8.76%</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- App Bottom Navigation -->
+                  <div class="phone-bottom-nav">
+                    <div class="nav-app-item active">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+                      </svg>
+                      <span>Home</span>
+                    </div>
+                    <div class="nav-app-item">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <path d="M18 20V10M12 20V4M6 20v-6" />
+                      </svg>
+                      <span>Markets</span>
+                    </div>
+                    <div class="nav-app-item">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <circle cx="12" cy="12" r="9" />
+                        <path d="m10 15 5-3-5-3v6z" />
+                      </svg>
+                      <span>Trade</span>
+                    </div>
+                    <div class="nav-app-item">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2">
+                        <rect x="2" y="7" width="20" height="14" rx="2" />
+                        <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+                      </svg>
+                      <span>Portfolio</span>
+                    </div>
+                  </div>
+
+                  <!-- iOS Home Indicator -->
+                  <div class="phone-home-indicator"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4 Floating Glassmorphism Cards (Matching Reference Layout) -->
+            <!-- 1. Top-Left: Live Market Insights -->
+            <div class="hero__float-card hero__float-card--insight" id="heroFloat1">
+              <div class="float-card__icon float-card__icon--purple">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M18 20V10M12 20V4M6 20v-6" />
+                </svg>
+              </div>
+              <div class="float-card__info">
+                <strong class="float-card__title">Live Market Insights</strong>
+                <span class="float-card__subtitle">Real-time analysis & proven strategies</span>
+              </div>
+              <span class="float-card__dot float-card__dot--green" aria-hidden="true"></span>
+            </div>
+
+            <!-- 2. Top-Right: BTC Pill Badge -->
+            <div class="hero__float-card hero__float-card--btc" id="heroFloat2">
+              <div class="float-card__btc-coin">₿</div>
+              <div class="float-card__btc-content">
+                <span class="float-card__btc-symbol">BTC</span>
+                <span class="float-card__btc-change">
+                  +2.34%
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+                    stroke-linecap="round">
+                    <path d="M7 17L17 7M17 7H7M17 7V17" />
+                  </svg>
+                </span>
+              </div>
+            </div>
+
+            <!-- 3. Mid-Right: Community Card -->
+            <div class="hero__float-card hero__float-card--community" id="heroFloat3">
+              <div class="float-card__icon float-card__icon--lavender">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+              </div>
+              <div class="float-card__info">
+                <strong class="float-card__title">Community</strong>
+                <span class="float-card__subtitle">Active discussions & expert traders</span>
+              </div>
+              <span class="float-card__dot float-card__dot--purple" aria-hidden="true"></span>
+            </div>
+
+            <!-- 4. Bottom-Right: Grow Together Card -->
+            <div class="hero__float-card hero__float-card--grow" id="heroFloat4">
+              <div class="float-card__icon float-card__icon--lavender">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <polyline points="22 7 13.5 15.5 8.5 10.5 2 17" />
+                  <polyline points="16 7 22 7 22 13" />
+                </svg>
+              </div>
+              <div class="float-card__info">
+                <strong class="float-card__title">Grow Together</strong>
+                <span class="float-card__subtitle">Learn • Share • Profit</span>
+              </div>
+              <span class="float-card__dot float-card__dot--purple" aria-hidden="true"></span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TRUST / BENEFIT STRIP ==================== -->
+    <section class="trust-strip" id="trustStrip">
+      <div class="container">
+        <div class="trust-strip__inner">
+          <div class="trust-strip__item">
+            <div class="trust-strip__icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                <circle cx="9" cy="7" r="4" />
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+              </svg>
+            </div>
+            <div class="trust-strip__text">
+              <span class="trust-strip__title">Experienced Team</span>
+              <span class="trust-strip__desc">Real market background</span>
+            </div>
+          </div>
+
+          <div class="trust-strip__divider" aria-hidden="true"></div>
+
+          <div class="trust-strip__item">
+            <div class="trust-strip__icon-wrap">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.28-.02-.12.03-2.02 1.28-5.69 3.77-.54.37-1.03.55-1.47.54-.48-.01-1.4-.27-2.09-.49-.84-.28-1.51-.42-1.45-.89.03-.25.38-.5 1.04-.76 4.09-1.78 6.82-2.96 8.19-3.52 3.9-1.62 4.71-1.9 5.24-1.91.12 0 .37.03.54.17.14.12.18.28.2.46-.01.06.01.24 0 .36z" />
+              </svg>
+            </div>
+            <div class="trust-strip__text">
+              <span class="trust-strip__title">Telegram First</span>
+              <span class="trust-strip__desc">Live where traders communicate</span>
+            </div>
+          </div>
+
+          <div class="trust-strip__divider" aria-hidden="true"></div>
+
+          <div class="trust-strip__item">
+            <div class="trust-strip__icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="4.93" y1="4.93" x2="19.07" y2="19.07" />
+              </svg>
+            </div>
+            <div class="trust-strip__text">
+              <span class="trust-strip__title">No Courses</span>
+              <span class="trust-strip__desc">Zero recorded lesson upsells</span>
+            </div>
+          </div>
+
+          <div class="trust-strip__divider" aria-hidden="true"></div>
+
+          <div class="trust-strip__item">
+            <div class="trust-strip__icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+              </svg>
+            </div>
+            <div class="trust-strip__text">
+              <span class="trust-strip__title">Community Focused</span>
+              <span class="trust-strip__desc">Shared ambition & growth</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== MESSAGING SCREENSHOT SECTION (THE DIFFERENCE) ==================== -->
+    <section class="difference section" id="difference">
+      <div class="container">
+        <div class="difference__grid">
+          <!-- Clean Messaging Screenshot Column (LIVE icon & overlay text removed as requested) -->
+          <div class="difference__visual-col" id="differenceVisualCol">
+            <div class="difference__clean-frame">
+              <img src="images/telegram-chat.jpg" alt="Future Fint active Telegram discussions" class="difference__img">
+            </div>
+          </div>
+
+          <!-- Editorial Text Column -->
+          <div class="difference__content-col" id="differenceTextCol">
+            <p class="section-label">THE FUTURE FINT DIFFERENCE</p>
+            <h2 class="section-heading">
+              <span class="mask-line"><span class="mask-inner gs-heading">Not Another</span></span>
+              <span class="mask-line"><span class="mask-inner gs-heading purple-gradient-text">Trading
+                  Course.</span></span>
+            </h2>
+            <p class="section-lead">
+              Future Fint was created for people who want access to a serious trading environment — not another library
+              of pre-recorded videos and endless upsell funnels.
+            </p>
+
+            <h3 class="difference__subheading">Trading is better when you are not doing it alone.</h3>
+
+            <div class="difference__points-list">
+              <div class="diff-point-item">
+                <div class="diff-point-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <div>
+                  <strong>Real-time market discussions</strong>
+                  <p>Exchange views as market conditions evolve, not months after the fact.</p>
+                </div>
+              </div>
+
+              <div class="diff-point-item">
+                <div class="diff-point-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <div>
+                  <strong>Practical, actionable perspectives</strong>
+                  <p>Grounded market context from experienced participants across Forex and Macro.</p>
+                </div>
+              </div>
+
+              <div class="diff-point-item">
+                <div class="diff-point-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polyline points="20 6 9 17 4 12" />
+                  </svg>
+                </div>
+                <div>
+                  <strong>A connected, supportive community</strong>
+                  <p>Learn alongside disciplined traders who value risk management and clarity.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="difference__cta-wrap">
+              <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="btn btn--primary magnetic-btn"
+                data-track="telegram-cta">
+                <span class="btn-text">
+                  Enter Our Telegram
+                </span>
+                <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== WE DON'T SELL COURSES (CONCEPTUAL COMPARISON) ==================== -->
+    <section class="no-courses section section--lavender" id="no-courses">
+      <div class="container">
+        <div class="no-courses__header text-center">
+          <p class="section-label">OUR CLEAR STANDPOINT</p>
+          <h2 class="section-heading">
+            <span class="mask-line"><span class="mask-inner gs-heading">We Don't Sell Courses.</span></span>
+          </h2>
+          <p class="section-subtitle">
+            Future Fint is built around <span class="highlight-underline">real-time conversations</span>, practical
+            market perspectives and access to experienced people — not recorded lessons and endless upsells.
+          </p>
+        </div>
+
+        <!-- High-End Conceptual Composition: Recorded Content -> Real-Time Community -->
+        <div class="no-courses__comparison-container" id="coursesComparison">
+          <div class="comparison-grid">
+            <!-- Left Side: Outdated Pre-Recorded Content (Faded & Muted) -->
+            <div class="comparison-side comparison-side--old" id="coursesOldSide">
+              <div class="comparison-card-badge comparison-card-badge--muted">The Outdated Model</div>
+              <h3 class="comparison-title">Recorded Courses & Upsells</h3>
+              <p class="comparison-desc">Static modules filmed months ago in static market environments.</p>
+
+              <div class="course-mockup-stack">
+                <div class="course-mockup-item course-mockup-item--1">
+                  <div class="mock-play-icon">✕</div>
+                  <div class="mock-text">
+                    <span class="mock-title">Module 4: Static Strategy PDF</span>
+                    <span class="mock-meta">Recorded 2022 • Pre-packaged</span>
+                  </div>
+                  <span class="mock-tag">Outdated</span>
+                </div>
+                <div class="course-mockup-item course-mockup-item--2">
+                  <div class="mock-play-icon">✕</div>
+                  <div class="mock-text">
+                    <span class="mock-title">Upsell Tier: "VIP Masterclass"</span>
+                    <span class="mock-meta">Paywall Lock: $999</span>
+                  </div>
+                  <span class="mock-tag">Upsell</span>
+                </div>
+                <div class="course-mockup-item course-mockup-item--3">
+                  <div class="mock-play-icon">✕</div>
+                  <div class="mock-text">
+                    <span class="mock-title">Generic Indicator Pack</span>
+                    <span class="mock-meta">Zero live context</span>
+                  </div>
+                  <span class="mock-tag">Passive</span>
+                </div>
+              </div>
+
+              <div class="comparison-summary old-summary">
+                <span>✕ Solitary learning</span>
+                <span>✕ No live follow-up</span>
+                <span>✕ Constant sales pitches</span>
+              </div>
+            </div>
+
+            <!-- Transition Arrow / Energy Bridge -->
+            <div class="comparison-bridge" id="coursesBridge">
+              <div class="bridge-indicator">
+                <span class="bridge-tag">The Shift</span>
+                <svg class="bridge-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                  stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </div>
+            </div>
+
+            <!-- Right Side: Real-Time Telegram Community (Sharp, Glowing, Vibrant) -->
+            <div class="comparison-side comparison-side--new" id="coursesNewSide">
+              <div class="comparison-card-badge comparison-card-badge--active">The Future Fint Standard</div>
+              <h3 class="comparison-title purple-gradient-text">Real-Time Community</h3>
+              <p class="comparison-desc">Live, active environment where market ideas are exchanged continuously.</p>
+
+              <div class="community-live-hub-card">
+                <div class="hub-card-header">
+                  <div class="hub-channel-info">
+                    <div class="telegram-brand-icon">
+                      <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.28-.02-.12.03-2.02 1.28-5.69 3.77-.54.37-1.03.55-1.47.54-.48-.01-1.4-.27-2.09-.49-.84-.28-1.51-.42-1.45-.89.03-.25.38-.5 1.04-.76 4.09-1.78 6.82-2.96 8.19-3.52 3.9-1.62 4.71-1.9 5.24-1.91.12 0 .37.03.54.17.14.12.18.28.2.46-.01.06.01.24 0 .36z" />
+                      </svg>
+                    </div>
+                    <div>
+                      <strong>Future Fint Community</strong>
+                      <span class="hub-status"><span class="pulse-dot"></span> Live discussions ongoing</span>
+                    </div>
+                  </div>
+                  <span class="hub-live-badge">100% Free Access</span>
+                </div>
+
+                <div class="hub-message-sample">
+                  <div class="msg-bubble">
+                    <span class="msg-author">Market Desk:</span>
+                    <p>“CPI volatility absorbed. Watching clean reaction at 1.0840 liquidity sweep.”</p>
+                    <div class="msg-reactions">
+                      <span>🔥 24</span>
+                      <span>📈 19</span>
+                      <span>💡 31</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="comparison-summary new-summary">
+                  <span>✓ Continuous market dialogue</span>
+                  <span>✓ Direct peer interaction</span>
+                  <span>✓ Zero course paywalls</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="no-courses__tagline-bar">
+            <p><strong>The Reality:</strong> Less selling. More real conversation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== TELEGRAM COMMUNITY SHOWCASE ==================== -->
+    <section class="telegram-showcase section" id="community">
+      <div class="container">
+        <div class="section-header text-center">
+          <p class="section-label">WHERE THE COMMUNITY LIVES</p>
+          <h2 class="section-heading">
+            <span class="mask-line"><span class="mask-inner gs-heading">A Real Trading Community.</span></span>
+          </h2>
+          <p class="section-subtitle">
+            One central destination to follow real market moves, exchange perspectives with experienced traders, and
+            stay disciplined together.
+          </p>
+        </div>
+
+        <div class="tg-sticky-stage" id="tgStickyStage">
+          <!-- Central Device Screen Mockup -->
+          <div class="tg-phone-center" id="tgPhoneCenter">
+            <div class="tg-phone-mockup">
+              <div class="phone-top-bar">
+                <span class="phone-time">09:41</span>
+                <div class="phone-notch"></div>
+                <div class="phone-icons">
+                  <span class="signal-bar"></span>
+                  <span class="battery-icon"></span>
+                </div>
+              </div>
+
+              <div class="phone-tg-header">
+                <div class="tg-header-left">
+                  <div class="tg-avatar-circle">FF</div>
+                  <div class="tg-channel-details">
+                    <span class="tg-channel-name">Future Fint Community</span>
+                    <span class="tg-channel-sub"><span class="online-indicator-dot"></span> Active Community</span>
+                  </div>
+                </div>
+                <div class="tg-header-right">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="1" />
+                    <circle cx="12" cy="5" r="1" />
+                    <circle cx="12" cy="19" r="1" />
+                  </svg>
+                </div>
+              </div>
+
+              <div class="phone-tg-body" id="tgPhoneBody">
+                <div class="tg-bubble tg-bubble--stage1" id="tgMsg1">
+                  <div class="bubble-header">
+                    <span class="sender-name sender-name--analyst">Macro Lead</span>
+                    <span class="bubble-time">10:14 AM</span>
+                  </div>
+                  <p class="bubble-text"><strong>Morning Briefing:</strong> US yields cooling after market open.
+                    Watching DXY resistance zone closely.</p>
+                  <div class="bubble-reactions">
+                    <span>👍 48</span>
+                    <span>📊 29</span>
+                  </div>
+                </div>
+
+                <div class="tg-bubble tg-bubble--stage2" id="tgMsg2">
+                  <div class="bubble-header">
+                    <span class="sender-name">FX Discussion</span>
+                    <span class="bubble-time">10:28 AM</span>
+                  </div>
+                  <p class="bubble-text">GBP/USD confirming support at key 4H swing. Nice structural shift.</p>
+                  <div class="chart-preview-pill">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                    </svg>
+                    <span>Chart Shared (GBPUSD_H4.png)</span>
+                  </div>
+                </div>
+
+                <div class="tg-bubble tg-bubble--stage3" id="tgMsg3">
+                  <div class="bubble-header">
+                    <span class="sender-name sender-name--lead">Senior Trader</span>
+                    <span class="bubble-time">10:45 AM</span>
+                  </div>
+                  <p class="bubble-text">Remember risk discipline on high impact days. Capital preservation always comes
+                    first.</p>
+                  <div class="bubble-reactions">
+                    <span>🎯 86</span>
+                    <span>🛡️ 52</span>
+                  </div>
+                </div>
+
+                <div class="tg-typing-box" id="tgTypingIndicator">
+                  <div class="typing-bubble">
+                    <span class="typing-dot"></span>
+                    <span class="typing-dot"></span>
+                    <span class="typing-dot"></span>
+                  </div>
+                  <span class="typing-label">Members discussing trade setup...</span>
+                </div>
+              </div>
+
+              <div class="phone-home-indicator"></div>
+            </div>
+            <div class="tg-phone-glow" aria-hidden="true"></div>
+          </div>
+
+          <!-- 4 Sequential Feature Annotations -->
+          <div class="tg-annotations-wrapper">
+            <div class="tg-annotation active" id="tgStage1">
+              <div class="annotation-badge">Stage 01</div>
+              <h4 class="annotation-title">Market Updates</h4>
+              <p class="annotation-text">Live macro insights, key economic event breakdowns, and real-time market
+                context without the noise.</p>
+            </div>
+
+            <div class="tg-annotation" id="tgStage2">
+              <div class="annotation-badge">Stage 02</div>
+              <h4 class="annotation-title">Trade Discussions</h4>
+              <p class="annotation-text">Interactive setup reviews, chart analyses, and live perspectives shared with
+                fellow disciplined traders.</p>
+            </div>
+
+            <div class="tg-annotation" id="tgStage3">
+              <div class="annotation-badge">Stage 03</div>
+              <h4 class="annotation-title">Experienced Community</h4>
+              <p class="annotation-text">Connect with seasoned market participants who have navigated diverse market
+                cycles and regimes.</p>
+            </div>
+
+            <div class="tg-annotation" id="tgStage4">
+              <div class="annotation-badge">Stage 04</div>
+              <h4 class="annotation-title">Community Support</h4>
+              <p class="annotation-text">A noise-free, professional environment where trader psychology, risk, and
+                discipline are prioritized.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tg-showcase-cta text-center">
+          <a href="https://t.me/" target="_blank" rel="noopener noreferrer"
+            class="btn btn--primary btn--large magnetic-btn" data-track="telegram-cta">
+            <span class="btn-text">
+              <svg class="telegram-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.28-.02-.12.03-2.02 1.28-5.69 3.77-.54.37-1.03.55-1.47.54-.48-.01-1.4-.27-2.09-.49-.84-.28-1.51-.42-1.45-.89.03-.25.38-.5 1.04-.76 4.09-1.78 6.82-2.96 8.19-3.52 3.9-1.62 4.71-1.9 5.24-1.91.12 0 .37.03.54.17.14.12.18.28.2.46-.01.06.01.24 0 .36z" />
+              </svg>
+              Join the Telegram Community
+            </span>
+            <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== "A REAL TRADING ENVIRONMENT..." SECTION (WITH PROPER TRADING CHART) ==================== -->
+    <section class="purple-highlight-section section" id="trading-environment">
+      <div class="container">
+        <div class="purple-immersive-card" id="purpleImmersiveCard">
+          <div class="purple-card-bg-glow"></div>
+
+          <div class="purple-card-content">
+            <div class="purple-card-header text-center">
+              <span class="purple-eyebrow">A REAL TRADING ENVIRONMENT</span>
+              <h2 class="purple-card-heading">
+                A Real Trading Environment Built For<br>Traders Who Want To Move Forward.
+              </h2>
+              <p class="purple-card-sub">
+                Real market depth, live analysis, and institutional perspective without the noise.
+              </p>
+            </div>
+
+            <!-- PROPER TRADING CHART & DASHBOARD (Replaces demo/placeholder) -->
+            <div class="trading-terminal-dashboard">
+              <!-- Terminal Header Bar -->
+              <div class="terminal-header">
+                <div class="terminal-pair">
+                  <div class="pair-symbol">EUR/USD</div>
+                  <div class="pair-price">1.08465</div>
+                  <span class="pair-change positive">+0.42% (+0.00452)</span>
+                </div>
+
+                <div class="terminal-stats">
+                  <span class="stat-item"><span class="stat-lbl">HIGH</span> 1.08720</span>
+                  <span class="stat-item"><span class="stat-lbl">LOW</span> 1.08110</span>
+                  <span class="stat-item"><span class="stat-lbl">VOL</span> $2.48B</span>
+                </div>
+
+                <div class="terminal-timeframes">
+                  <button class="tf-btn">15M</button>
+                  <button class="tf-btn">1H</button>
+                  <button class="tf-btn active">4H</button>
+                  <button class="tf-btn">1D</button>
+                  <button class="tf-btn">1W</button>
+                </div>
+              </div>
+
+              <!-- Main Terminal Layout: Chart + Side Panel -->
+              <div class="terminal-main-grid">
+                <!-- Candlestick & Technical Chart Area -->
+                <div class="terminal-chart-area">
+                  <!-- Indicator Badges -->
+                  <div class="terminal-indicator-row">
+                    <span class="ind-pill ind-pill--bull">EMA (20/50): BULLISH CROSS</span>
+                    <span class="ind-pill">RSI (14): 58.4 [MOMENTUM UP]</span>
+                    <span class="ind-pill">LIQUIDITY SWEEP CONFIRMED</span>
+                  </div>
+
+                  <!-- Realistic Financial Trading Chart Canvas (SVG with proper Candlesticks & Technicals) -->
+                  <div class="svg-chart-container">
+                    <svg viewBox="0 0 820 340" fill="none" xmlns="http://www.w3.org/2000/svg" class="trading-chart-svg">
+                      <!-- Grid Lines -->
+                      <line x1="0" y1="60" x2="820" y2="60" stroke="rgba(255,255,255,0.06)" stroke-dasharray="4 4" />
+                      <line x1="0" y1="130" x2="820" y2="130" stroke="rgba(255,255,255,0.06)" stroke-dasharray="4 4" />
+                      <line x1="0" y1="200" x2="820" y2="200" stroke="rgba(255,255,255,0.06)" stroke-dasharray="4 4" />
+                      <line x1="0" y1="270" x2="820" y2="270" stroke="rgba(255,255,255,0.06)" stroke-dasharray="4 4" />
+
+                      <!-- Price Scale Right -->
+                      <text x="760" y="58" fill="rgba(255,255,255,0.4)" font-size="11"
+                        font-family="'JetBrains Mono', monospace">1.08700</text>
+                      <text x="760" y="128" fill="rgba(255,255,255,0.4)" font-size="11"
+                        font-family="'JetBrains Mono', monospace">1.08500</text>
+                      <text x="760" y="198" fill="rgba(255,255,255,0.4)" font-size="11"
+                        font-family="'JetBrains Mono', monospace">1.08300</text>
+                      <text x="760" y="268" fill="rgba(255,255,255,0.4)" font-size="11"
+                        font-family="'JetBrains Mono', monospace">1.08100</text>
+
+                      <!-- Key Zone Shading: Order Block / Demand Zone -->
+                      <rect x="240" y="210" width="580" height="35" fill="rgba(124, 66, 255, 0.12)" rx="4" />
+                      <text x="250" y="232" fill="#C4B5FD" font-size="10" font-weight="600"
+                        font-family="'JetBrains Mono', monospace">4H INSTITUTIONAL DEMAND / ORDER BLOCK</text>
+
+                      <!-- Supply / Resistance Level -->
+                      <line x1="80" y1="75" x2="740" y2="75" stroke="#EC4899" stroke-width="1.5" stroke-dasharray="6 4"
+                        opacity="0.7" />
+                      <text x="610" y="70" fill="#F472B6" font-size="10"
+                        font-family="'JetBrains Mono', monospace">SUPPLY TARGET: 1.08680</text>
+
+                      <!-- 50 EMA Curve (Blue-violet) -->
+                      <path d="M20 220 C 140 215, 260 210, 380 185 C 500 160, 620 135, 740 100"
+                        stroke="rgba(147, 112, 219, 0.5)" stroke-width="2" fill="none" />
+
+                      <!-- 20 EMA Curve (Luminous Purple-Pink) -->
+                      <path d="M20 235 C 140 225, 260 215, 380 170 C 500 145, 620 110, 740 85" stroke="#A78BFA"
+                        stroke-width="2.5" fill="none" />
+
+                      <!-- Realistic Candlesticks (Wick line + Body Rect) -->
+                      <!-- Candle 1: Bearish -->
+                      <line x1="40" y1="180" x2="40" y2="245" stroke="#818CF8" stroke-width="1.5" />
+                      <rect x="34" y="190" width="12" height="45" fill="#4F46E5" rx="2" />
+
+                      <!-- Candle 2: Bullish Reversal -->
+                      <line x1="75" y1="210" x2="75" y2="265" stroke="#10B981" stroke-width="1.5" />
+                      <rect x="69" y="220" width="12" height="35" fill="#10B981" rx="2" />
+
+                      <!-- Candle 3: Pullback -->
+                      <line x1="110" y1="215" x2="110" y2="255" stroke="#818CF8" stroke-width="1.5" />
+                      <rect x="104" y="225" width="12" height="22" fill="#4F46E5" rx="2" />
+
+                      <!-- Candle 4: Long lower wick liquidity sweep -->
+                      <line x1="145" y1="195" x2="145" y2="280" stroke="#10B981" stroke-width="1.5" />
+                      <rect x="139" y="210" width="12" height="28" fill="#10B981" rx="2" />
+                      <text x="145" y="298" fill="#10B981" font-size="9" text-anchor="middle"
+                        font-family="'JetBrains Mono', monospace">▲ SWEEP</text>
+
+                      <!-- Candle 5: Strong Bullish Impulse -->
+                      <line x1="180" y1="170" x2="180" y2="230" stroke="#10B981" stroke-width="1.5" />
+                      <rect x="174" y="180" width="12" height="40" fill="#10B981" rx="2" />
+
+                      <!-- Candle 6: Bullish Continuation -->
+                      <line x1="215" y1="150" x2="215" y2="200" stroke="#10B981" stroke-width="1.5" />
+                      <rect x="209" y="160" width="12" height="30" fill="#10B981" rx="2" />
+
+                      <!-- Candle 7: Consolidation pause -->
+                      <line x1="250" y1="155" x2="250" y2="185" stroke="#818CF8" stroke-width="1.5" />
+                      <rect x="244" y="162" width="12" height="15" fill="#4F46E5" rx="2" />
+
+                      <!-- Candle 8: Retest of Order Block -->
+                      <line x1="285" y1="165" x2="285" y2="225" stroke="#10B981" stroke-width="1.5" />
+                      <rect x="279" y="175" width="12" height="25" fill="#10B981" rx="2" />
+
+                      <!-- Candle 9: Strong green candle -->
+                      <line x1="320" y1="135" x2="320" y2="190" stroke="#10B981" stroke-width="1.5" />
+                      <rect x="314" y="145" width="12" height="38" fill="#10B981" rx="2" />
+
+                      <!-- Candle 10: Break of Structure (BOS) -->
+                      <line x1="355" y1="115" x2="355" y2="165" stroke="#10B981" stroke-width="1.5" />
+                      <rect x="349" y="125" width="12" height="32" fill="#10B981" rx="2" />
+
+                      <!-- Candle 11: Minor retracement -->
+                      <line x1="390" y1="120" x2="390" y2="155" stroke="#818CF8" stroke-width="1.5" />
+                      <rect x="384" y="130" width="12" height="18" fill="#4F46E5" rx="2" />
+
+                      <!-- Candle 12: Expansion candle -->
+                      <line x1="425" y1="95" x2="425" y2="145" stroke="#10B981" stroke-width="1.5" />
+                      <rect x="419" y="105" width="12" height="35" fill="#10B981" rx="2" />
+
+                      <!-- Candle 13: Higher high -->
+                      <line x1="460" y1="85" x2="460" y2="130" stroke="#10B981" stroke-width="1.5" />
+                      <rect x="454" y="92" width="12" height="28" fill="#10B981" rx="2" />
+
+                      <!-- Candle 14: Small indecision doji -->
+                      <line x1="495" y1="80" x2="495" y2="115" stroke="#C4B5FD" stroke-width="1.5" />
+                      <rect x="489" y="94" width="12" height="8" fill="#C4B5FD" rx="1" />
+
+                      <!-- Candle 15: Clean 4H continuation candle -->
+                      <line x1="530" y1="70" x2="530" y2="110" stroke="#10B981" stroke-width="1.5" />
+                      <rect x="524" y="78" width="12" height="26" fill="#10B981" rx="2" />
+
+                      <!-- Candle 16: Live pulsating candle -->
+                      <line x1="565" y1="62" x2="565" y2="98" stroke="#10B981" stroke-width="2" />
+                      <rect x="559" y="68" width="12" height="24" fill="#34D399" rx="2" class="live-candle-pulse" />
+
+                      <!-- Current Price Indicator Line (Horizontal Glowing Green) -->
+                      <line x1="0" y1="80" x2="750" y2="80" stroke="#10B981" stroke-width="1" stroke-dasharray="3 3" />
+                      <rect x="745" y="70" width="65" height="20" fill="#10B981" rx="4" />
+                      <text x="777" y="84" fill="#FFFFFF" font-size="10" font-weight="700" text-anchor="middle"
+                        font-family="'JetBrains Mono', monospace">1.08465</text>
+
+                      <!-- Bottom Volume Histogram Bars -->
+                      <rect x="34" y="300" width="12" height="22" fill="rgba(79,70,229,0.4)" rx="1" />
+                      <rect x="69" y="290" width="12" height="32" fill="rgba(16,185,129,0.5)" rx="1" />
+                      <rect x="104" y="305" width="12" height="17" fill="rgba(79,70,229,0.4)" rx="1" />
+                      <rect x="139" y="280" width="12" height="42" fill="rgba(16,185,129,0.7)" rx="1" />
+                      <rect x="174" y="275" width="12" height="47" fill="rgba(16,185,129,0.8)" rx="1" />
+                      <rect x="209" y="288" width="12" height="34" fill="rgba(16,185,129,0.6)" rx="1" />
+                      <rect x="244" y="310" width="12" height="12" fill="rgba(79,70,229,0.4)" rx="1" />
+                      <rect x="279" y="295" width="12" height="27" fill="rgba(16,185,129,0.5)" rx="1" />
+                      <rect x="314" y="270" width="12" height="52" fill="rgba(16,185,129,0.85)" rx="1" />
+                      <rect x="349" y="282" width="12" height="40" fill="rgba(16,185,129,0.7)" rx="1" />
+                      <rect x="384" y="308" width="12" height="14" fill="rgba(79,70,229,0.4)" rx="1" />
+                      <rect x="419" y="265" width="12" height="57" fill="rgba(16,185,129,0.9)" rx="1" />
+                      <rect x="454" y="278" width="12" height="44" fill="rgba(16,185,129,0.7)" rx="1" />
+                      <rect x="489" y="312" width="12" height="10" fill="rgba(196,181,253,0.5)" rx="1" />
+                      <rect x="524" y="272" width="12" height="50" fill="rgba(16,185,129,0.85)" rx="1" />
+                      <rect x="559" y="260" width="12" height="62" fill="rgba(52,211,153,0.95)" rx="1" />
+                    </svg>
+                  </div>
+                </div>
+
+                <!-- Terminal Side Panel: Market Depth & Community Sentiment -->
+                <div class="terminal-side-panel">
+                  <div class="side-panel-header">COMMUNITY CONSENSUS</div>
+                  <div class="sentiment-meter">
+                    <div class="sentiment-bar-fill" style="width: 84%;"></div>
+                  </div>
+                  <div class="sentiment-labels">
+                    <span class="bull-pct">84% Bullish</span>
+                    <span class="bear-pct">16% Bearish</span>
+                  </div>
+
+                  <div class="order-book-preview">
+                    <div class="ob-title">LIVE DESK PERSPECTIVE</div>
+                    <div class="ob-row">
+                      <span class="ob-level">TP Target</span>
+                      <span class="ob-val text-green">1.08680</span>
+                      <span class="ob-note">+21.5 pips</span>
+                    </div>
+                    <div class="ob-row">
+                      <span class="ob-level">Entry Retest</span>
+                      <span class="ob-val text-purple">1.08420</span>
+                      <span class="ob-note">Filled</span>
+                    </div>
+                    <div class="ob-row">
+                      <span class="ob-level">Invalidation</span>
+                      <span class="ob-val text-red">1.08180</span>
+                      <span class="ob-note">Risk 1:3.2</span>
+                    </div>
+                  </div>
+
+                  <div class="terminal-active-badge">
+                    <span class="pulse-dot"></span>
+                    <span>1,240+ Traders Tracking Setup</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Overlapping Community Member Badges Below Chart -->
+            <div class="community-avatars-overlay">
+              <div class="avatar-badge-item">
+                <img src="images/team-1.jpg" alt="Active community member" class="avatar-img-circle">
+                <div class="avatar-badge-text">
+                  <strong>Active Traders</strong>
+                  <span>Real market depth</span>
+                </div>
+              </div>
+              <div class="avatar-badge-item">
+                <img src="images/team-2.jpg" alt="Active community member" class="avatar-img-circle">
+                <div class="avatar-badge-text">
+                  <strong>Peer Exchange</strong>
+                  <span>Collaborative setups</span>
+                </div>
+              </div>
+              <div class="avatar-badge-item">
+                <img src="images/team-3.jpg" alt="Active community member" class="avatar-img-circle">
+                <div class="avatar-badge-text">
+                  <strong>Zero Courses</strong>
+                  <span>100% focused on trading</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="purple-card-bottom text-center">
+              <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="btn btn--white magnetic-btn"
+                data-track="telegram-cta">
+                <span class="btn-text">
+                  <svg class="telegram-icon" width="20" height="20" viewBox="0 0 24 24" fill="#5B20F0">
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.28-.02-.12.03-2.02 1.28-5.69 3.77-.54.37-1.03.55-1.47.54-.48-.01-1.4-.27-2.09-.49-.84-.28-1.51-.42-1.45-.89.03-.25.38-.5 1.04-.76 4.09-1.78 6.82-2.96 8.19-3.52 3.9-1.62 4.71-1.9 5.24-1.91.12 0 .37.03.54.17.14.12.18.28.2.46-.01.06.01.24 0 .36z" />
+                  </svg>
+                  Join Future Fint on Telegram
+                </span>
+                <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5B20F0"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== EXPERIENCED MINDS (PEOPLE & PERSPECTIVE) ==================== -->
+    <section class="experience-section section" id="experience">
+      <div class="container">
+        <div class="experience__grid">
+          <!-- Typography & Editorial Column -->
+          <div class="experience__content-col">
+            <p class="section-label">PEOPLE & PERSPECTIVE</p>
+            <h2 class="section-heading">
+              <span class="mask-line"><span class="mask-inner gs-heading">Experienced Minds.</span></span>
+              <span class="mask-line"><span class="mask-inner gs-heading purple-gradient-text">One Shared
+                  Vision.</span></span>
+            </h2>
+
+            <p class="section-lead">
+              Future Fint is backed by people with real market experience, different perspectives, and one common goal —
+              building a stronger trading community.
+            </p>
+
+            <div class="experience__pillars">
+              <div class="pillar-card">
+                <div class="pillar-num">01</div>
+                <div class="pillar-body">
+                  <strong>Macro & Technical Acumen</strong>
+                  <p>Understanding the interplay between interest rates, order flow, and price action.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-num">02</div>
+                <div class="pillar-body">
+                  <strong>Risk & Capital Preservation</strong>
+                  <p>Advocating disciplined risk parameters and avoiding reckless leverage traps.</p>
+                </div>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-num">03</div>
+                <div class="pillar-body">
+                  <strong>Transparent Community Leadership</strong>
+                  <p>Sharing authentic perspectives without fake promises or get-rich schemes.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Editorial Visual Placeholder Column -->
+          <div class="experience__visual-col">
+            <div class="team-editorial-card">
+              <div class="team-editorial-media">
+                <div class="team-photo-atmosphere">
+                  <div class="team-silhouette-group">
+                    <div class="silhouette-person sil--1"></div>
+                    <div class="silhouette-person sil--2"></div>
+                    <div class="silhouette-person sil--3"></div>
+                    <div class="silhouette-person sil--4"></div>
+                  </div>
+                  <div class="chart-backlight"></div>
+                </div>
+                <div class="team-overlay-details">
+                  <div class="team-pill-tag">Future Fint Trading Desk</div>
+                  <span class="team-caption-text">Collaborative Market Insights & Community Guidance</span>
+                </div>
+              </div>
+
+              <div class="team-quote-box">
+                <p class="team-quote-text">“Markets test character every day. Navigating them with experienced peers
+                  transforms how you think and trade.”</p>
+                <div class="team-quote-author">
+                  <span class="author-name">Future Fint Collective</span>
+                  <span class="author-role">Market Research & Trading Community</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FINANCIAL FREEDOM STORY ==================== -->
+    <section class="brand-story section section--lavender" id="story">
+      <div class="container">
+        <div class="brand-story__grid">
+          <div class="brand-story__left">
+            <p class="section-label">THE CENTRAL IDEA</p>
+            <h2 class="section-heading">
+              <span class="mask-line"><span class="mask-inner gs-heading">Financial Freedom</span></span>
+              <span class="mask-line"><span class="mask-inner gs-heading purple-gradient-text">Starts With Better
+                  Decisions.</span></span>
+            </h2>
+          </div>
+
+          <div class="brand-story__right">
+            <p class="brand-story__text">
+              Future Fint exists to bring ambitious traders closer to genuine experience, actionable information, and a
+              community that keeps them connected to reality.
+            </p>
+            <p class="brand-story__text-sub">
+              We believe that financial independence is not built on secret shortcuts or high-cost courses — it is built
+              on consistent execution, disciplined risk management, and the right network of peers.
+            </p>
+
+            <div class="brand-story__cta">
+              <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="btn btn--primary magnetic-btn"
+                data-track="telegram-cta">
+                <span class="btn-text">
+                  Start Your Journey on Telegram
+                </span>
+                <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== HOW IT WORKS ==================== -->
+    <section class="how-it-works section" id="how-it-works">
+      <div class="container">
+        <div class="section-header text-center">
+          <p class="section-label">A SIMPLE PATHWAY</p>
+          <h2 class="section-heading">
+            <span class="mask-line"><span class="mask-inner gs-heading">Your Community Is Three Steps
+                Away.</span></span>
+          </h2>
+        </div>
+
+        <div class="steps-flow-container">
+          <div class="steps-connecting-line" aria-hidden="true">
+            <div class="connecting-line-fill"></div>
+          </div>
+
+          <div class="steps-grid">
+            <div class="step-card">
+              <div class="step-badge">01</div>
+              <h3 class="step-title">Join Telegram</h3>
+              <p class="step-desc">Click any button to enter the verified Future Fint community channel directly.</p>
+              <div class="step-micro-action">Immediate Access</div>
+            </div>
+
+            <div class="step-card">
+              <div class="step-badge">02</div>
+              <h3 class="step-title">Stay Connected</h3>
+              <p class="step-desc">Follow daily market commentary, macro charts, and real-time trade discussions.</p>
+              <div class="step-micro-action">Real-Time Flow</div>
+            </div>
+
+            <div class="step-card">
+              <div class="step-badge">03</div>
+              <h3 class="step-title">Grow With The Community</h3>
+              <p class="step-desc">Learn from experience, share your views, and build your own disciplined approach.</p>
+              <div class="step-micro-action">Long-Term Skill</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== REVIEWS SECTION (4 REVIEWS RESTORED WITH REAL AVATARS) ==================== -->
+    <section class="testimonials section section--lavender" id="reviews">
+      <div class="container">
+        <div class="section-header text-center">
+          <p class="section-label">COMMUNITY PERSPECTIVES</p>
+          <h2 class="section-heading">
+            <span class="mask-line"><span class="mask-inner gs-heading">Trusted By Traders Worldwide.</span></span>
+          </h2>
+          <p class="section-subtitle">
+            Real feedback from active traders navigating the markets with Future Fint every day.
+          </p>
+        </div>
+
+        <!-- 4 Balanced, Modern Review Cards with Real Profile Pictures -->
+        <div class="reviews-grid">
+          <!-- Review 1 -->
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">"A genuinely helpful community with knowledgeable traders. Great atmosphere, zero
+              fluff, and real discussions that help you make better decisions."</p>
+            <div class="review-author">
+              <img src="images/team-1.jpg" alt="Liam T." class="review-avatar-img">
+              <div>
+                <strong class="review-name">Liam T.</strong>
+                <span class="review-role">Forex & Macro Trader</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 2 -->
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">"Finally a trading community without the hype. Real people, real insights, real
+              value. The daily macro perspectives have saved me from so many bad trades."</p>
+            <div class="review-author">
+              <img src="images/team-2.jpg" alt="Sophie R." class="review-avatar-img">
+              <div>
+                <strong class="review-name">Sophie R.</strong>
+                <span class="review-role">Swing Trader</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 3 -->
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">"I've learned so much from the discussions in here. The quality of analysis is top
+              tier, and having experienced traders debate setups live is unmatched."</p>
+            <div class="review-author">
+              <img src="images/team-3.jpg" alt="Marcus K." class="review-avatar-img">
+              <div>
+                <strong class="review-name">Marcus K.</strong>
+                <span class="review-role">Price Action Trader</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Review 4 (Restored) -->
+          <div class="review-card">
+            <div class="review-stars">★★★★★</div>
+            <p class="review-quote">"No courses, no endless upsells, just authentic market perspectives every single
+              day. Exactly what serious retail traders need to stay disciplined."</p>
+            <div class="review-author">
+              <img src="images/team-4.jpg" alt="Daniel B." class="review-avatar-img">
+              <div>
+                <strong class="review-name">Daniel B.</strong>
+                <span class="review-role">Day & Momentum Trader</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FAQ ==================== -->
+    <section class="faq section" id="faq">
+      <div class="container">
+        <div class="section-header text-center">
+          <p class="section-label">QUESTIONS & ANSWERS</p>
+          <h2 class="section-heading">
+            <span class="mask-line"><span class="mask-inner gs-heading">Everything You Need To Know.</span></span>
+          </h2>
+        </div>
+
+        <div class="faq__list">
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>Is Future Fint a trading course?</span>
+              <span class="faq__toggle-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                No. Future Fint does not sell trading courses. The core experience is our active Telegram community and
+                daily market discussions among experienced traders.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>Where is the community hosted?</span>
+              <span class="faq__toggle-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                The community is primarily hosted on Telegram. Click any "Join Telegram" button on the website to enter
+                directly.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>Who is Future Fint for?</span>
+              <span class="faq__toggle-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                Anyone interested in trading who wants to connect with an active community and experienced market
+                participants without unnecessary sales hype.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>Does joining guarantee trading profits?</span>
+              <span class="faq__toggle-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                No. Trading financial markets carries inherent risk and no legitimate trading community guarantees
+                returns. Future Fint provides a community environment for analysis and idea exchange, not financial
+                advice.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>Can beginners join?</span>
+              <span class="faq__toggle-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                Yes, as long as you understand Future Fint is a community environment rather than a structured video
+                course. All experience levels are welcome to observe and participate.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq__item">
+            <button class="faq__question" aria-expanded="false">
+              <span>How do I join right now?</span>
+              <span class="faq__toggle-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="12" y1="5" x2="12" y2="19" />
+                  <line x1="5" y1="12" x2="19" y2="12" />
+                </svg>
+              </span>
+            </button>
+            <div class="faq__answer">
+              <div class="faq__answer-inner">
+                Click any of the "Join Telegram" buttons across this page to be redirected straight to the community on
+                Telegram.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FINAL CTA ==================== -->
+    <section class="final-cta section" id="finalCta">
+      <div class="container">
+        <div class="final-cta__box" id="finalCtaBox">
+          <div class="final-cta__glow" aria-hidden="true"></div>
+
+          <div class="final-cta__content text-center">
+            <span class="final-cta__tag">THE NEXT STEP</span>
+            <h2 class="final-cta__title">
+              Join a Community That<br>Trades Together.
+            </h2>
+            <p class="final-cta__desc">
+              Become part of a serious trading collective built around experience, conversation and mutual ambition.
+            </p>
+            <div class="final-cta__action">
+              <a href="https://t.me/" target="_blank" rel="noopener noreferrer"
+                class="btn btn--white btn--large magnetic-btn" data-track="telegram-cta">
+                <span class="btn-text">
+                  <svg class="telegram-icon" width="22" height="22" viewBox="0 0 24 24" fill="#5B20F0">
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.28-.02-.12.03-2.02 1.28-5.69 3.77-.54.37-1.03.55-1.47.54-.48-.01-1.4-.27-2.09-.49-.84-.28-1.51-.42-1.45-.89.03-.25.38-.5 1.04-.76 4.09-1.78 6.82-2.96 8.19-3.52 3.9-1.62 4.71-1.9 5.24-1.91.12 0 .37.03.54.17.14.12.18.28.2.46-.01.06.01.24 0 .36z" />
+                  </svg>
+                  Join Telegram
+                </span>
+                <svg class="btn-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5B20F0"
+                  stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER (FOTOR) SECTION ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <!-- Exact Provided Logo, Pure White, Noticeably Larger, No Background -->
+          <a href="#home" class="footer__logo-link">
+            <img src="images/logo-white.png" alt="Future Fint Logo" class="footer__logo-img">
+          </a>
+          <p class="footer__tagline">Be Financially Free.</p>
+          <p class="footer__description">A serious trading community built around experience, market insight, and peer
+            connection.</p>
+        </div>
+
+        <div class="footer__column">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#difference">The Difference</a></li>
+            <li><a href="#no-courses">Our Approach</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#trading-environment">Environment</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__column">
+          <h4>Principles</h4>
+          <ul>
+            <li><a href="#no-courses">No Courses Policy</a></li>
+            <li><a href="#community">Telegram First</a></li>
+            <li><a href="#experience">Experienced Team</a></li>
+            <li><a href="#story">Financial Freedom</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__column">
+          <h4>Connect</h4>
+          <div class="footer__social">
+            <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="footer__social-link"
+              aria-label="Join on Telegram" data-track="telegram-cta">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.28-.02-.12.03-2.02 1.28-5.69 3.77-.54.37-1.03.55-1.47.54-.48-.01-1.4-.27-2.09-.49-.84-.28-1.51-.42-1.45-.89.03-.25.38-.5 1.04-.76 4.09-1.78 6.82-2.96 8.19-3.52 3.9-1.62 4.71-1.9 5.24-1.91.12 0 .37.03.54.17.14.12.18.28.2.46-.01.06.01.24 0 .36z" />
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Follow on X (Twitter)">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              </svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Follow on Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Prominent Footer Branding & Attribution: "Made with Annizi and Co" -->
+      <div class="footer__annizi-branding">
+        <div class="annizi-brand-wrap">
+          <img src="images/logo-white.png" alt="Future Fint Logo" class="footer__prominent-logo">
+          <span class="annizi-brand-text">Made with Anzi&co</span>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__bottom-inner">
+          <p class="footer__disclaimer">
+            <strong>Risk Disclaimer:</strong> Trading financial markets involves significant risk of loss and is not
+            suitable for every investor. Future Fint does not provide financial advice or guarantee profits. Past
+            performance does not indicate future outcomes.
+          </p>
+          <p class="footer__copyright">&copy; 2026 Future Fint. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== STICKY MOBILE CTA ==================== -->
+  <div class="mobile-cta" id="mobileStickyCta">
+    <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="btn btn--primary btn--mobile"
+      data-track="telegram-cta">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.28-.02-.12.03-2.02 1.28-5.69 3.77-.54.37-1.03.55-1.47.54-.48-.01-1.4-.27-2.09-.49-.84-.28-1.51-.42-1.45-.89.03-.25.38-.5 1.04-.76 4.09-1.78 6.82-2.96 8.19-3.52 3.9-1.62 4.71-1.9 5.24-1.91.12 0 .37.03.54.17.14.12.18.28.2.46-.01.06.01.24 0 .36z" />
+      </svg>
+      <span>Join Telegram</span>
+      <svg class="btn-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="2.5">
+        <path d="M5 12h14M12 5l7 7-7 7" />
+      </svg>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
